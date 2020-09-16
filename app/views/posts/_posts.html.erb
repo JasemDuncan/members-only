@@ -1,0 +1,21 @@
+<div class='col-9 caja1 mx-auto caja'>
+
+    <div class='col-11 row bg-light mx-auto'>
+        <%= render 'form' %>
+    </div>
+    <% @posts.each do |post| %>
+        <div class='col-11  bg-light row mx-auto'>
+           
+            <div class='col-2 mx-auto bg-light'>
+                <div class='imagen'></div>
+                
+                <strong class='text-center'><p>Alexoid1</p></strong>
+            </div>
+            <div class='m-2 border col-9 mx-auto'>
+                <p><%= post.post %></p>
+            </div>
+        </div>
+    <% end %>
+  
+        
+</div>

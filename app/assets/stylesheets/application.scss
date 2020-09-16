@@ -1,1 +1,30 @@
 @import "bootstrap/scss/bootstrap";
+
+.caja{
+    min-height:100vh;
+}
+
+.caja1{
+    background: rgba(43, 212, 156, 0.815);
+}
+
+.imagen{
+    border:2px solid white;
+    width:80px;
+    height: 80px;
+    background: brown;
+    border-radius:100%;
+}
+
+.img-container {
+    width: 50px;
+    height:50px;
+    border-radius:100%;
+    overflow: hidden;
+}
+
+.content{
+    width: 550px;
+    min-height: 150px;
+
+}
