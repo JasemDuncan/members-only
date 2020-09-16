@@ -9,15 +9,15 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body class="bg-dark"> 
+  <body class="bg-dark "> 
     <% if flash[:notice] %>
-      <div class="notification is-primary global-notification navblu">
+      <div class="notification is-primary global-notification text-light text-center">
         <p class="notice"><%= notice %></p>
       </div>
 
     <% end %>
     <% if flash[:alert] %>
-      <div class="notification is-danger global-notification navblu">
+      <div class="notification is-danger global-notification text-danger text-center">
         <p class='alert'><%= alert %></p>
       </div>
 
