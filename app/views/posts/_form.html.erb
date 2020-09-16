@@ -1,22 +1,36 @@
-<%= form_with(model: post, local: true) do |form| %>
-  <% if post.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
-
-      <ul>
-        <% post.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
+<div>
+  <form class='form' accept-charset="UTF-8" action="/posts/"  method="post">
+  
+    <div class="field">
+      <div class="control">
+      
+        <label for='twee' class='label'>Start</label>
+        <hr>
+        <div class='foorm'>
+          <figure class="media-left">
+            <p class="image is-64x64">
+                <img src="https://bulma.io/images/placeholders/64x64.png">
+            </p>
+          </figure>
+          <input class='input' type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" />
+          <input class='input' type="text" id="post" name="post[post]" value='name'><br><br>
+         
+          
+        </div>
+        
+        
+      </div>
     </div>
-  <% end %>
-
-  <div class="field">
-    <%= form.label :post %>
-    <%= form.text_area :post %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
-<% end %>
+    <div class='form-links foorm'>
+      <div class='font-icons'>
+        <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-gift fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-bar-chart fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-smile-o fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-calendar-check-o fa-lg" aria-hidden="true"></i>
+      </div>
+      <input type="submit" value="Submit">
+    </div>
+    
+  </form>
+</div>
