@@ -1,5 +1,9 @@
 @import "bootstrap/scss/bootstrap";
 
+body{
+    max-width: 1700px;;
+}
+
 .caja{
     min-height:100vh;
 }
@@ -27,4 +31,8 @@
     width: 550px;
     min-height: 150px;
 
+}
+
+.sign-up {
+    max-width: 1700px;
 }
