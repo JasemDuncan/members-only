@@ -6,7 +6,7 @@ class PostsController < ApplicationController
   # GET /posts.json
   def index
     @posts = Post.all.order('created_at DESC')
-    @posts = Post.new
+    @post = Post.new
   end
 
   # GET /posts/1
@@ -25,7 +25,7 @@ class PostsController < ApplicationController
 
   # POST /posts
   # POST /posts.json
-  def create
+  def create    
     @post = current_user.posts.build(post_params)
 
     respond_to do |format|
