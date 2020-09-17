@@ -1,24 +1,61 @@
-# README
+# Re-former 🚀 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is a user admin interface that create, edit and delete users, The Re-former use forms to get the data from users and store in the database. 
 
-Things you may want to cover:
+![screenshot](./img/new.png)
 
-* Ruby version
+![screenshot](./img/users.png)
 
-* System dependencies
+## Getting Started
+- Go to (https://github.com/Alexoid1/Rails-form) and have a look around.
+- Open your Terminal.
+- Clone repo
+- Go to the project's root
+- Start server (rails server).
+- Fill the Users form.
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+## Built With
 
-* How to run the test suite
+- Ruby on Rails
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+### Prerequisites
 
-* ...
+- Browser
+- Internet
+- Download the code from repository (https://github.com/Alexoid1/Rails-form)
+
+## Credit
+
+- Odin project (https://www.theodinproject.com/lessons/forms)
+
+## Authors
+
+
+👤 **Pablo Alexis Zambrano Coral**
+
+- Github: [@Alexoid1](https://github.com/Alexoid1)
+- Twitter: [@pablo_acz](https://twitter.com/pablo_acz)
+- Linkedin: [linkedin](https://www.linkedin.com/in/pablo-alexis-zambrano-coral-7a614a189/)
+
+👤 **Jasem Duncan Valencia Vargas**
+
+- Github: [@JasemDuncan](https://github.com/JasemDuncan)
+- Twitter: [@JasemDuncan](https://twitter.com/JasemValencia)
+- Linkedin: [@JasemDuncan](https://www.linkedin.com/in/jasem-duncan-valencia/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests and any type of feedback to improve are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project has no license.
