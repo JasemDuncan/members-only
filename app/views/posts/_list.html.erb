@@ -1,0 +1,13 @@
+<div>
+    <% @users.each do |user| %>
+        <div class='border m-2'>
+            <strong class='text-center text-light'><p>Name:</p></strong>
+            <P class='text-center text-light'><%= user.name %></P>
+            <strong class='text-center text-light'><p>Username:</p></strong>
+            <P class='text-center text-light'><%= user.username %></P>
+            <strong class='text-center text-light'><p>Email:</p></strong>
+            <P class='text-center text-light'><%= user.email %></P>
+        </div>
+
+    <% end %>  
+</div>
