@@ -1,53 +1,51 @@
 @import "bootstrap/scss/bootstrap";
 
-body{
-    max-width: 1700px;;
+body {
+  max-width: 1700px;
 }
 
-.caja{
-    min-height:100vh;
+.caja {
+  min-height: 100vh;
 }
 
-.caja1{
-    background: white;
+.caja1 {
+  background: white;
 }
 
-.imagen{
-    border:2px solid white;
-    width:80px;
-    height: 80px;
-    background: brown;
-    border-radius:100%;
+.imagen {
+  border: 2px solid white;
+  width: 80px;
+  height: 80px;
+  background: brown;
+  border-radius: 100%;
 }
 
 .img-container {
-    
-    width: 50px;
-    height:50px;
-    border-radius:100%;
-    overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  overflow: hidden;
 }
 
-.content{
-    width: 100%;
-    min-height: 150px;
-
+.content {
+  width: 100%;
+  min-height: 150px;
 }
 
 .sign-up {
-    max-width: 1700px;
+  max-width: 1700px;
 }
 
 .borde {
-    border: 2px solid white;
-    margin:30px;
+  border: 2px solid white;
+  margin: 30px;
 }
 
-.imagenn{
-    width:100%;
-    margin:auto;
+.imagenn {
+  width: 100%;
+  margin: auto;
 }
 
 hr {
-    background: white;
+  background: white;
 }

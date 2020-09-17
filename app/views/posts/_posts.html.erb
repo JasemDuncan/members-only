@@ -3,15 +3,13 @@
         
             <div class='col-11  bg-light row mx-auto'> 
                 <% if usuario_signed_in?%>          
-                    <div class='col-2 mx-auto bg-light'>
-                        
+                    <div class='col-2 mx-auto bg-light'>                        
                         <div>
                             <p class="image is-64x64 ">
                                 <img src="https://bulma.io/images/placeholders/64x64.png" class='img-container'>
                             </p>
                         </div>
-                            <strong><p> <%= post.usuario.name %></p></strong><br />
-                      
+                            <strong><p> <%= post.usuario.name %></p></strong><br />                      
                     </div>
                 <% end %>    
                 <div class='m-2 border col-9 mx-auto'>
