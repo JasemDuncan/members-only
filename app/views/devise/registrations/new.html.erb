@@ -1,0 +1,49 @@
+
+<div class='sign-up d-flex justify-content-center border-light column'>
+  
+  
+  
+  <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    <div class='borde'>
+      <%= render "devise/shared/error_messages", resource: resource %>
+      <div class='d-block mt-3'>
+        <h2 class='text-light text-center'>Sign up</h2>
+      </div>
+      <div class="field">
+        <%= f.label :name, class:'text-light' %><br />
+        <%= f.text_field :name, autofocus: true, autocomplete: "name" %>
+      </div>
+      <div class="field">
+        <%= f.label :username, class:'text-light' %><br />
+        <%= f.text_field :username, autocomplete: "username" %>
+      </div>
+
+      <div class="field">
+        <%= f.label :email, class:'text-light' %><br />
+        <%= f.email_field :email, autocomplete: "email" %>
+      </div>
+
+      <div class="field">
+        <%= f.label :password, class:'text-light' %>
+        <% if @minimum_password_length %>
+        <em>(<%= @minimum_password_length %> characters minimum)</em>
+        <% end %><br />
+        <%= f.password_field :password, autocomplete: "new-password" %>
+      </div>
+
+      <div class="field">
+        <%= f.label :password_confirmation, class:'text-light' %><br />
+        <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+      </div>
+
+      <div class="actions">
+        <%= f.submit "Sign up" %>
+      </div>
+      <%= render "devise/shared/links" %>
+  </div>  
+  <% end %>
+
+
+
+  
+</div>
