@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :authenticate_user!, only: %i[create]
+  before_action :authenticate_usuario!, only: %i[create]
 
   # GET /posts
   # GET /posts.json
@@ -71,6 +71,6 @@ class PostsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def post_params
-      params.require(:post).permit(:post)
+      params.require(:post).permit(:post, :title)
     end
 end
