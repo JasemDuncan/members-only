@@ -12,12 +12,11 @@ module ApplicationHelper
 
   def signed_in_link
     if signed_in?
-        link_to "Create a Post", new_post_path,  class: "nav-link text-dark"
+      link_to 'Create a Post', new_post_path, class: 'nav-link text-dark'
     else
-        link_to 'Log in', new_usuario_session_path, class: 'nav-link text-dark'
-    end    
+      link_to 'Log in', new_usuario_session_path, class: 'nav-link text-dark'
+    end
   end
- 
 
   def error_flashes
     if flash[:notice]
