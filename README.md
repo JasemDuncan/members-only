@@ -1,18 +1,19 @@
-# Re-former 🚀 
+# Members Only! 🚀 
+![screenshot](app/assets/images/logo.png)
+> In this project, we built an exclusive clubhouse, where members can write embarrassing posts about non-members. Inside the clubhouse, members can see who the author of a post is, but outside, they can only see the story and wonder who wrote it. 
 
-> This is a user admin interface that create, edit and delete users, The Re-former use forms to get the data from users and store in the database. 
-
-![screenshot](./img/new.png)
-
-![screenshot](./img/users.png)
+## If you are not a member, you will see: 😑
+![screenshot](app/assets/images/notMember.png)
+## If you are a member, you will know everything: 😮  
+![screenshot](app/assets/images/membersOnly.png)
 
 ## Getting Started
-- Go to (https://github.com/Alexoid1/Rails-form) and have a look around.
+- Go to (https://github.com/JasemDuncan/members-only) and have a look around.
 - Open your Terminal.
 - Clone repo
 - Go to the project's root
 - Start server (rails server).
-- Fill the Users form.
+- In your browser open: http://localhost:3000/
 
 
 
@@ -25,11 +26,10 @@
 
 - Browser
 - Internet
-- Download the code from repository (https://github.com/Alexoid1/Rails-form)
 
 ## Credit
 
-- Odin project (https://www.theodinproject.com/lessons/forms)
+- The Odin project (https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication)
 
 ## Authors
 
@@ -43,8 +43,8 @@
 👤 **Jasem Duncan Valencia Vargas**
 
 - Github: [@JasemDuncan](https://github.com/JasemDuncan)
-- Twitter: [@JasemDuncan](https://twitter.com/JasemValencia)
-- Linkedin: [@JasemDuncan](https://www.linkedin.com/in/jasem-duncan-valencia/)
+- Twitter: [@JasemValencia](https://twitter.com/JasemValencia)
+- Linkedin: [@Jasem-Duncan-Valencia](https://www.linkedin.com/in/jasem-duncan-valencia/)
 
 
 ## 🤝 Contributing
