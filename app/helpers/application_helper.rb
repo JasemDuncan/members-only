@@ -6,7 +6,6 @@ module ApplicationHelper
                                                       class: 'nav-link text-dark'
     else
       link_to 'Sign up', new_usuario_registration_path, class: 'nav-link text-dark'
-
     end
   end
 
