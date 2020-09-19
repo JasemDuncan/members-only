@@ -1,22 +1,35 @@
-<%= form_with(model: post, local: true) do |form| %>
-  <% if post.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
 
-      <ul>
-        <% post.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
+<div class='col-12'>
+  <form class='mx-auto' accept-charset="UTF-8" action="/posts/"  method="post">
 
-  <div class="field">
-    <%= form.label :post %>
-    <%= form.text_area :post %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
-<% end %>
+   
+      
+      
+        
+        <hr>
+        <div class='text-center col-12 imagenn'>
+          <div>
+            <h5 class='text-center'><%= post.usuario.username %></h5>
+            <div class='mx-auto'>
+              <div>
+                <p class="image is-64x64 ">
+                    <img src="https://bulma.io/images/placeholders/64x64.png" class='img-container'>
+                </p>
+              </div>
+            </div>
+            
+          </div>
+          <div class=''>
+            <input class='input' type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" />
+            <input class='input  ' type="text" id="title" name="post[title]" placeholder='Write the title here...' > <br><br>
+            <input class='input content ' type="textarea" id="post" name="post[post]" placeholder='Write here...' cols="10"   rows="20" > <br><br>
+          
+            <div class='row d-flex justify-content-between'>
+              <div class='mx-auto'>
+                <input type="submit" value="Submit">
+              </div>
+            </div>
+          </div>
+        </div>
+  </form>
+</div>
