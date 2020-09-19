@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :authenticate_usuario!, only: %i[create]
+  before_action :authenticate_usuario!, only: %i[create new]
 
   # GET /posts
   # GET /posts.json
